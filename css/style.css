@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    height: 100vh;
+
+    background-image: url("/images/galaxy-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 250px;
+    width: 600px;
+    
+    background: #3d3c3b41;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    border: 1px solid #ffffff2e;
+}
+
+
+.relogio div {
+    height: 170px;
+    width: 170px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color: #c49ec4;
+    
+    background-color: #050505e6;
+    box-shadow: 15px 15px 15px #000000b3;
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.relogio span.tempo {
+    font-size: 14px;
+}
